@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Meridium.FacebookRescrapeURI</id>
+    <version>1.0.0</version>
+    <title>Meridium.FacebookRescrapeURI</title>
+    <authors>Team Golf @ Meridium AB</authors>
+    <owners>Team Golf @ Meridium AB</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A "wrapper" for sending requests to Facebook and Open Graph to update an OG-object.</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+  </metadata>
+  <files>
+    <file src="bin/release/Meridium.FacebookRescrapeURI.dll" target="lib\net45\" /> 
+  </files>
+</package>
