@@ -12,6 +12,9 @@
     <copyright>Copyright 2015</copyright>
   </metadata>
   <files>
-    <file src="bin/release/Meridium.FacebookRescrapeURI.dll" target="lib\net45\" /> 
+    <file src="bin/release/Meridium.FacebookRescrapeURI.dll" target="lib\net45\" />
   </files>
+  <dependencies>
+    <dependency id="log4net" version="1.2.10" />
+  </dependencies>
 </package>
