@@ -6,7 +6,7 @@ According to Facebook, the crawler will re-scrape (and therefore update) objects
 
 - When the object URL is input in the Object Debugger
 - Every 30 days after the first scrape
-- When an app triggers a scrape using an API endpoint (this is doin' this)
+- When an app triggers a scrape using an API endpoint (this is doin' that)
 
 Source: [Facebook Developers: Using Objects -> Updating Objects](https://developers.facebook.com/docs/sharing/opengraph/using-objects#update)
 
@@ -23,6 +23,3 @@ rescraperInstance.Rescrape();</code>
 Sometimes you need (or want) to take control over the timeout. You can do that.
 
 `rescraperInstance.Timeout = (int)(0 -> System.Threading.Infinite)(default: 100 000 ms)`
-
-## Originally built to support EPiServer
-That dependency is long gone now. :broken_heart:
