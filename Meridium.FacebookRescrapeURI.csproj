@@ -7,8 +7,8 @@
     <ProjectGuid>{EE7CB014-F197-414D-8582-EED233F09978}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Meridium.EPiServer.FacebookRescrapeURI</RootNamespace>
-    <AssemblyName>Meridium.EPiServer.FacebookRescrapeURI</AssemblyName>
+    <RootNamespace>Meridium.FacebookRescrapeURI</RootNamespace>
+    <AssemblyName>Meridium.FacebookRescrapeURI</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

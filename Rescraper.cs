@@ -30,14 +30,14 @@ namespace Meridium.FacebookRescrapeURI
 			return new Rescraper(rescrapableObject);
 	    }
 
-	    public static IRescraper Create(bool isPopulated, string openGraphKey)
+	    public static IRescraper Create(string openGraphKey)
 	    {
-			return new Rescraper(isPopulated, openGraphKey);
+			return new Rescraper(openGraphKey);
 	    }
 
-		private Rescraper(bool isPopulated, string openGraphKey)
+		private Rescraper(string openGraphKey)
 		{
-			ScrapableObject = CreateRescrapableObject(isPopulated, openGraphKey);
+			ScrapableObject = CreateRescrapableObject(openGraphKey);
 		}
 
 		private Rescraper(IRescrapable rescrapableObject)
@@ -69,11 +69,10 @@ namespace Meridium.FacebookRescrapeURI
 			}
 	    }
 
-		public static IRescrapable CreateRescrapableObject(bool isPopulated, string openGraphKey)
+		public static IRescrapable CreateRescrapableObject(string openGraphKey)
 		{
 			return new RescrapableObject()
 			{
-				IsPopulated = isPopulated,
 				OpenGraphKey = openGraphKey
 			};
 		}
