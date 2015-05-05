@@ -10,11 +10,11 @@
     <description>A "wrapper" for sending requests to Facebook and Open Graph to update an OG-object.</description>
     <releaseNotes>First release</releaseNotes>
     <copyright>Copyright 2015</copyright>
+    <dependencies>
+      <dependency id="log4net" version="1.2.10" />
+    </dependencies>
   </metadata>
   <files>
     <file src="bin/release/Meridium.FacebookRescrapeURI.dll" target="lib\net45\" />
   </files>
-  <dependencies>
-    <dependency id="log4net" version="1.2.10" />
-  </dependencies>
 </package>
