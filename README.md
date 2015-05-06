@@ -22,10 +22,10 @@ rescraperInstance.Rescrape();</code>
 
 Sometimes you need (or want) to take control over the timeout. You can do that.
 
-`rescraperInstance.Timeout = (int)(0 -> System.Threading.Infinite)(default: 100 000 ms)`
+`rescraperInstance.Timeout = (int)(0 -> System.Threading.Timeout.Infinite)(default: 100 000 ms)`
 
 ## Installation
 
-Find it in our NuGet-feed. 
+Find it in our internal NuGet-feed. 
 
 `Install-Package Meridium.FacebookRescrapeURI`
